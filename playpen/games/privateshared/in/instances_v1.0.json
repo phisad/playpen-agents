@@ -14,7 +14,13 @@
             "when": "Anytime next week"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: Cologne\nTO: Lisbon\nBY: Overnight bus\nCLASS: The most comfortable\nWHEN: Anytime next week\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["from", "by", "class", "when", "to"],
+          "request_order": [
+            "from",
+            "by",
+            "class",
+            "when",
+            "to"
+          ],
           "requests": {
             "from": 3,
             "to": 2,
@@ -65,8 +71,10 @@
               "class": 3,
               "when": 5
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 1,
           "tag": "TRAVEL-AGENT",
           "slots": {
@@ -77,7 +85,13 @@
             "when": "Next month, first week"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: Paris\nTO: Moscow\nBY: Rented Car\nCLASS: The most comfortable\nWHEN: Next month, first week\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["by", "from", "to", "class", "when"],
+          "request_order": [
+            "by",
+            "from",
+            "to",
+            "class",
+            "when"
+          ],
           "requests": {
             "from": 3,
             "to": 0,
@@ -128,8 +142,10 @@
               "class": 2,
               "when": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 2,
           "tag": "TRAVEL-AGENT",
           "slots": {
@@ -140,7 +156,13 @@
             "when": "In ten days"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: Rome\nTO: Athens\nBY: Boat\nCLASS: Economy\nWHEN: In ten days\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["to", "when", "by", "from", "class"],
+          "request_order": [
+            "to",
+            "when",
+            "by",
+            "from",
+            "class"
+          ],
           "requests": {
             "from": 2,
             "to": 0,
@@ -191,8 +213,10 @@
               "class": 1,
               "when": 9
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 3,
           "tag": "TRAVEL-AGENT",
           "slots": {
@@ -203,7 +227,13 @@
             "when": "On April 10"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: Cologne\nTO: Stuttgart\nBY: Overnight bus\nCLASS: The cheapest\nWHEN: On April 10\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["class", "to", "by", "when", "from"],
+          "request_order": [
+            "class",
+            "to",
+            "by",
+            "when",
+            "from"
+          ],
           "requests": {
             "from": 2,
             "to": 4,
@@ -254,8 +284,10 @@
               "class": 3,
               "when": 5
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 4,
           "tag": "TRAVEL-AGENT",
           "slots": {
@@ -266,7 +298,13 @@
             "when": "On April 10"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: Stockholm\nTO: Madrid\nBY: Plane\nCLASS: The most comfortable\nWHEN: On April 10\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["when", "from", "to", "by", "class"],
+          "request_order": [
+            "when",
+            "from",
+            "to",
+            "by",
+            "class"
+          ],
           "requests": {
             "from": 1,
             "to": 4,
@@ -317,8 +355,10 @@
               "class": 3,
               "when": 5
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 5,
           "tag": "TRAVEL-AGENT",
           "slots": {
@@ -329,7 +369,13 @@
             "when": "At the end of next week"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: Hamburg\nTO: Athens\nBY: Plane\nCLASS: Economy\nWHEN: At the end of next week\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["to", "when", "by", "from", "class"],
+          "request_order": [
+            "to",
+            "when",
+            "by",
+            "from",
+            "class"
+          ],
           "requests": {
             "from": 4,
             "to": 2,
@@ -380,8 +426,10 @@
               "class": 3,
               "when": 4
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 6,
           "tag": "TRAVEL-AGENT",
           "slots": {
@@ -392,7 +440,13 @@
             "when": "In May"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: London\nTO: Brussels\nBY: Plane\nCLASS: Business\nWHEN: In May\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["from", "by", "class", "when", "to"],
+          "request_order": [
+            "from",
+            "by",
+            "class",
+            "when",
+            "to"
+          ],
           "requests": {
             "from": 1,
             "to": 3,
@@ -443,8 +497,10 @@
               "class": 2,
               "when": 3
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 7,
           "tag": "TRAVEL-AGENT",
           "slots": {
@@ -455,7 +511,13 @@
             "when": "On August 15"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: Cologne\nTO: Vienna\nBY: Rented Car\nCLASS: Economy\nWHEN: On August 15\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["from", "class", "by", "to", "when"],
+          "request_order": [
+            "from",
+            "class",
+            "by",
+            "to",
+            "when"
+          ],
           "requests": {
             "from": 2,
             "to": 0,
@@ -506,8 +568,10 @@
               "class": 1,
               "when": 4
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 8,
           "tag": "TRAVEL-AGENT",
           "slots": {
@@ -518,7 +582,13 @@
             "when": "Next Sunday"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: Berlin\nTO: Brussels\nBY: Overnight bus\nCLASS: First\nWHEN: Next Sunday\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["when", "class", "to", "from", "by"],
+          "request_order": [
+            "when",
+            "class",
+            "to",
+            "from",
+            "by"
+          ],
           "requests": {
             "from": 0,
             "to": 3,
@@ -569,8 +639,10 @@
               "class": 3,
               "when": 8
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 9,
           "tag": "TRAVEL-AGENT",
           "slots": {
@@ -581,7 +653,13 @@
             "when": "In two weeks"
           },
           "initial_prompt": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: London\nTO: Lyon\nBY: Boat\nCLASS: The cheapest\nWHEN: In two weeks\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["from", "by", "to", "class", "when"],
+          "request_order": [
+            "from",
+            "by",
+            "to",
+            "class",
+            "when"
+          ],
           "requests": {
             "from": 0,
             "to": 0,
@@ -632,10 +710,12 @@
               "class": 3,
               "when": 1
             }
-          }
+          },
+          "lang": "en"
         }
       ]
-    }, {
+    },
+    {
       "name": "job-interview",
       "game_instances": [
         {
@@ -649,7 +729,13 @@
             "availability": "From September"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Mechanical Engineering\nINDUSTRY-EXPERIENCE: Two years\nHIGHEST-EDUCATION: PostDoc\nOTHER-SKILLS: Software development\nAVAILABILITY: From September\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["highest-education", "availability", "other-skills", "industry-experience", "bachelor"],
+          "request_order": [
+            "highest-education",
+            "availability",
+            "other-skills",
+            "industry-experience",
+            "bachelor"
+          ],
           "requests": {
             "bachelor": 1,
             "industry-experience": 2,
@@ -700,8 +786,10 @@
               "other-skills": 2,
               "availability": 2
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 1,
           "tag": "RECRUITER",
           "slots": {
@@ -712,7 +800,13 @@
             "availability": "As soon as possible"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Two years\nHIGHEST-EDUCATION: PostDoc\nOTHER-SKILLS: Cooking\nAVAILABILITY: As soon as possible\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["other-skills", "bachelor", "industry-experience", "highest-education", "availability"],
+          "request_order": [
+            "other-skills",
+            "bachelor",
+            "industry-experience",
+            "highest-education",
+            "availability"
+          ],
           "requests": {
             "bachelor": 2,
             "industry-experience": 3,
@@ -763,8 +857,10 @@
               "other-skills": 0,
               "availability": 5
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 2,
           "tag": "RECRUITER",
           "slots": {
@@ -775,7 +871,13 @@
             "availability": "Next month, first week"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Medicine\nINDUSTRY-EXPERIENCE: Twenty years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Playing piano\nAVAILABILITY: Next month, first week\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["availability", "bachelor", "other-skills", "industry-experience", "highest-education"],
+          "request_order": [
+            "availability",
+            "bachelor",
+            "other-skills",
+            "industry-experience",
+            "highest-education"
+          ],
           "requests": {
             "bachelor": 1,
             "industry-experience": 4,
@@ -826,8 +928,10 @@
               "other-skills": 2,
               "availability": 2
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 3,
           "tag": "RECRUITER",
           "slots": {
@@ -838,7 +942,13 @@
             "availability": "In two weeks"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Chemistry\nINDUSTRY-EXPERIENCE: Two years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Spanish\nAVAILABILITY: In two weeks\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["industry-experience", "highest-education", "availability", "bachelor", "other-skills"],
+          "request_order": [
+            "industry-experience",
+            "highest-education",
+            "availability",
+            "bachelor",
+            "other-skills"
+          ],
           "requests": {
             "bachelor": 0,
             "industry-experience": 1,
@@ -889,8 +999,10 @@
               "other-skills": 4,
               "availability": 1
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 4,
           "tag": "RECRUITER",
           "slots": {
@@ -901,7 +1013,13 @@
             "availability": "Anytime next month"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Mechanical Engineering\nINDUSTRY-EXPERIENCE: Fifteen years\nHIGHEST-EDUCATION: Bachelor\nOTHER-SKILLS: Project management\nAVAILABILITY: Anytime next month\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["industry-experience", "highest-education", "availability", "bachelor", "other-skills"],
+          "request_order": [
+            "industry-experience",
+            "highest-education",
+            "availability",
+            "bachelor",
+            "other-skills"
+          ],
           "requests": {
             "bachelor": 0,
             "industry-experience": 4,
@@ -952,8 +1070,10 @@
               "other-skills": 1,
               "availability": 1
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 5,
           "tag": "RECRUITER",
           "slots": {
@@ -964,7 +1084,13 @@
             "availability": "Last week of January"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Twenty years\nHIGHEST-EDUCATION: Professor\nOTHER-SKILLS: Leadership skills\nAVAILABILITY: Last week of January\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["industry-experience", "availability", "highest-education", "other-skills", "bachelor"],
+          "request_order": [
+            "industry-experience",
+            "availability",
+            "highest-education",
+            "other-skills",
+            "bachelor"
+          ],
           "requests": {
             "bachelor": 0,
             "industry-experience": 2,
@@ -1015,8 +1141,10 @@
               "other-skills": 4,
               "availability": 5
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 6,
           "tag": "RECRUITER",
           "slots": {
@@ -1027,7 +1155,13 @@
             "availability": "In two weeks"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Mechanical Engineering\nINDUSTRY-EXPERIENCE: Two years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Research\nAVAILABILITY: In two weeks\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["highest-education", "availability", "bachelor", "industry-experience", "other-skills"],
+          "request_order": [
+            "highest-education",
+            "availability",
+            "bachelor",
+            "industry-experience",
+            "other-skills"
+          ],
           "requests": {
             "bachelor": 3,
             "industry-experience": 1,
@@ -1078,8 +1212,10 @@
               "other-skills": 1,
               "availability": 6
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 7,
           "tag": "RECRUITER",
           "slots": {
@@ -1090,7 +1226,13 @@
             "availability": "From December 10"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Economics\nINDUSTRY-EXPERIENCE: Three years\nHIGHEST-EDUCATION: PostDoc\nOTHER-SKILLS: Research\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["bachelor", "industry-experience", "highest-education", "availability", "other-skills"],
+          "request_order": [
+            "bachelor",
+            "industry-experience",
+            "highest-education",
+            "availability",
+            "other-skills"
+          ],
           "requests": {
             "bachelor": 2,
             "industry-experience": 2,
@@ -1141,8 +1283,10 @@
               "other-skills": 4,
               "availability": 3
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 8,
           "tag": "RECRUITER",
           "slots": {
@@ -1153,7 +1297,13 @@
             "availability": "In two weeks"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Chemistry\nINDUSTRY-EXPERIENCE: Three years\nHIGHEST-EDUCATION: PostDoc\nOTHER-SKILLS: Research\nAVAILABILITY: In two weeks\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["availability", "other-skills", "highest-education", "bachelor", "industry-experience"],
+          "request_order": [
+            "availability",
+            "other-skills",
+            "highest-education",
+            "bachelor",
+            "industry-experience"
+          ],
           "requests": {
             "bachelor": 0,
             "industry-experience": 4,
@@ -1204,8 +1354,10 @@
               "other-skills": 2,
               "availability": 6
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 9,
           "tag": "RECRUITER",
           "slots": {
@@ -1216,7 +1368,13 @@
             "availability": "Tomorrow"
           },
           "initial_prompt": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Psychology\nINDUSTRY-EXPERIENCE: None\nHIGHEST-EDUCATION: Bachelor\nOTHER-SKILLS: French\nAVAILABILITY: Tomorrow\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["highest-education", "industry-experience", "availability", "bachelor", "other-skills"],
+          "request_order": [
+            "highest-education",
+            "industry-experience",
+            "availability",
+            "bachelor",
+            "other-skills"
+          ],
           "requests": {
             "bachelor": 0,
             "industry-experience": 0,
@@ -1267,10 +1425,12 @@
               "other-skills": 2,
               "availability": 0
             }
-          }
+          },
+          "lang": "en"
         }
       ]
-    }, {
+    },
+    {
       "name": "restaurant",
       "game_instances": [
         {
@@ -1284,7 +1444,13 @@
             "salad": "Avocado salad"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Fries\nDRINK: Orange juice\nMAIN-DISH: Burrito bowl\nDESSERT: Strudel\nSALAD: Avocado salad\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["salad", "dessert", "appetizer", "main-dish", "drink"],
+          "request_order": [
+            "salad",
+            "dessert",
+            "appetizer",
+            "main-dish",
+            "drink"
+          ],
           "requests": {
             "appetizer": 3,
             "drink": 2,
@@ -1335,8 +1501,10 @@
               "dessert": 1,
               "salad": 4
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 1,
           "tag": "WAITER",
           "slots": {
@@ -1347,7 +1515,13 @@
             "salad": "Caesar"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Tomato soup\nDRINK: Tea\nMAIN-DISH: Lentil soup\nDESSERT: Waffles\nSALAD: Caesar\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["main-dish", "drink", "dessert", "appetizer", "salad"],
+          "request_order": [
+            "main-dish",
+            "drink",
+            "dessert",
+            "appetizer",
+            "salad"
+          ],
           "requests": {
             "appetizer": 3,
             "drink": 0,
@@ -1398,8 +1572,10 @@
               "dessert": 0,
               "salad": 4
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 2,
           "tag": "WAITER",
           "slots": {
@@ -1410,7 +1586,13 @@
             "salad": "Caesar"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Guacamole and nachos\nDRINK: Lemonade\nMAIN-DISH: Falafel\nDESSERT: Brownie\nSALAD: Caesar\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["salad", "appetizer", "dessert", "main-dish", "drink"],
+          "request_order": [
+            "salad",
+            "appetizer",
+            "dessert",
+            "main-dish",
+            "drink"
+          ],
           "requests": {
             "appetizer": 2,
             "drink": 4,
@@ -1461,8 +1643,10 @@
               "dessert": 2,
               "salad": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 3,
           "tag": "WAITER",
           "slots": {
@@ -1473,7 +1657,13 @@
             "salad": "Tomato salad"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Antipasti\nDRINK: Champagne\nMAIN-DISH: Burrito bowl\nDESSERT: Crème brûlée\nSALAD: Tomato salad\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["salad", "appetizer", "main-dish", "drink", "dessert"],
+          "request_order": [
+            "salad",
+            "appetizer",
+            "main-dish",
+            "drink",
+            "dessert"
+          ],
           "requests": {
             "appetizer": 1,
             "drink": 3,
@@ -1524,8 +1714,10 @@
               "dessert": 2,
               "salad": 1
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 4,
           "tag": "WAITER",
           "slots": {
@@ -1536,7 +1728,13 @@
             "salad": "Rocket salad"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Garlic bread\nDRINK: Ginger ale\nMAIN-DISH: Pizza\nDESSERT: Waffles\nSALAD: Rocket salad\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["salad", "dessert", "drink", "appetizer", "main-dish"],
+          "request_order": [
+            "salad",
+            "dessert",
+            "drink",
+            "appetizer",
+            "main-dish"
+          ],
           "requests": {
             "appetizer": 0,
             "drink": 1,
@@ -1587,8 +1785,10 @@
               "dessert": 0,
               "salad": 2
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 5,
           "tag": "WAITER",
           "slots": {
@@ -1599,7 +1799,13 @@
             "salad": "Rocket salad"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Garlic bread\nDRINK: Soda\nMAIN-DISH: Lentil soup\nDESSERT: Ice cream\nSALAD: Rocket salad\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["dessert", "main-dish", "drink", "salad", "appetizer"],
+          "request_order": [
+            "dessert",
+            "main-dish",
+            "drink",
+            "salad",
+            "appetizer"
+          ],
           "requests": {
             "appetizer": 4,
             "drink": 1,
@@ -1650,8 +1856,10 @@
               "dessert": 1,
               "salad": 4
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 6,
           "tag": "WAITER",
           "slots": {
@@ -1662,7 +1870,13 @@
             "salad": "Zucchinni and olive salad"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Antipasti\nDRINK: Tea\nMAIN-DISH: Polenta\nDESSERT: Tiramisu\nSALAD: Zucchinni and olive salad\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["drink", "salad", "main-dish", "dessert", "appetizer"],
+          "request_order": [
+            "drink",
+            "salad",
+            "main-dish",
+            "dessert",
+            "appetizer"
+          ],
           "requests": {
             "appetizer": 1,
             "drink": 4,
@@ -1713,8 +1927,10 @@
               "dessert": 3,
               "salad": 2
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 7,
           "tag": "WAITER",
           "slots": {
@@ -1725,7 +1941,13 @@
             "salad": "Cucumber salad"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Fries\nDRINK: Champagne\nMAIN-DISH: Lentil soup\nDESSERT: Chocolate cake\nSALAD: Cucumber salad\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["main-dish", "drink", "dessert", "salad", "appetizer"],
+          "request_order": [
+            "main-dish",
+            "drink",
+            "dessert",
+            "salad",
+            "appetizer"
+          ],
           "requests": {
             "appetizer": 1,
             "drink": 1,
@@ -1776,8 +1998,10 @@
               "dessert": 3,
               "salad": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 8,
           "tag": "WAITER",
           "slots": {
@@ -1788,7 +2012,13 @@
             "salad": "Caesar"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Stuffed mushrooms\nDRINK: Lemonade\nMAIN-DISH: Lentil soup\nDESSERT: Waffles\nSALAD: Caesar\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["dessert", "salad", "appetizer", "drink", "main-dish"],
+          "request_order": [
+            "dessert",
+            "salad",
+            "appetizer",
+            "drink",
+            "main-dish"
+          ],
           "requests": {
             "appetizer": 4,
             "drink": 3,
@@ -1839,8 +2069,10 @@
               "dessert": 4,
               "salad": 2
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 9,
           "tag": "WAITER",
           "slots": {
@@ -1851,7 +2083,13 @@
             "salad": "Zucchinni and olive salad"
           },
           "initial_prompt": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Tomato soup\nDRINK: Lemonade\nMAIN-DISH: Polenta\nDESSERT: Brownie\nSALAD: Zucchinni and olive salad\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["main-dish", "salad", "dessert", "appetizer", "drink"],
+          "request_order": [
+            "main-dish",
+            "salad",
+            "dessert",
+            "appetizer",
+            "drink"
+          ],
           "requests": {
             "appetizer": 4,
             "drink": 1,
@@ -1902,10 +2140,12 @@
               "dessert": 2,
               "salad": 4
             }
-          }
+          },
+          "lang": "en"
         }
       ]
-    }, {
+    },
+    {
       "name": "things-places",
       "game_instances": [
         {
@@ -1930,8 +2170,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: daisy\nRIGHT: lip gloss\nTOP: brightener\nBOTTOM: spoons\nCENTER: blouse\nNORTHWEST: melons\nNORTHEAST: pear\nSOUTHWEST: wrench\nSOUTHEAST: shovel\nHERE: jeans skirt\nTHERE: cleanser\nNOWHERE: papaya\nEVERYWHERE: mascara\nINSIDE: mango\nOUTSIDE: post-it notes\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "nowhere", "southwest", "top", "bottom", "northwest", "everywhere", "northeast", "southeast", "there",
-            "right", "inside", "here", "center", "left", "outside"
+            "nowhere",
+            "southwest",
+            "top",
+            "bottom",
+            "northwest",
+            "everywhere",
+            "northeast",
+            "southeast",
+            "there",
+            "right",
+            "inside",
+            "here",
+            "center",
+            "left",
+            "outside"
           ],
           "requests": {
             "left": 0,
@@ -2223,8 +2476,10 @@
               "inside": 0,
               "outside": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 1,
           "tag": "QUESTIONER",
           "slots": {
@@ -2246,8 +2501,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: pencils\nTOP: knife\nBOTTOM: mirror\nCENTER: lemon\nNORTHWEST: eraser\nNORTHEAST: highlighter\nSOUTHWEST: scissors\nSOUTHEAST: copper\nHERE: crayons\nTHERE: iron\nNOWHERE: ukulele\nEVERYWHERE: ladder\nINSIDE: bucket\nOUTSIDE: post-it notes\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "northeast", "southwest", "top", "northwest", "southeast", "there", "everywhere", "left", "nowhere",
-            "bottom", "inside", "outside", "right", "center", "here"
+            "northeast",
+            "southwest",
+            "top",
+            "northwest",
+            "southeast",
+            "there",
+            "everywhere",
+            "left",
+            "nowhere",
+            "bottom",
+            "inside",
+            "outside",
+            "right",
+            "center",
+            "here"
           ],
           "requests": {
             "left": 0,
@@ -2539,8 +2807,10 @@
               "inside": 0,
               "outside": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 2,
           "tag": "QUESTIONER",
           "slots": {
@@ -2562,8 +2832,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: piano\nRIGHT: jacket\nTOP: cat\nBOTTOM: elephant\nCENTER: bees\nNORTHWEST: bolt\nNORTHEAST: frying pan\nSOUTHWEST: apples\nSOUTHEAST: bronzer\nHERE: lily\nTHERE: pencil sharpener\nNOWHERE: shirt\nEVERYWHERE: bluebell\nINSIDE: mango\nOUTSIDE: passion fruit\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "center", "inside", "top", "outside", "southeast", "nowhere", "northwest", "everywhere", "there",
-            "northeast", "bottom", "right", "here", "left", "southwest"
+            "center",
+            "inside",
+            "top",
+            "outside",
+            "southeast",
+            "nowhere",
+            "northwest",
+            "everywhere",
+            "there",
+            "northeast",
+            "bottom",
+            "right",
+            "here",
+            "left",
+            "southwest"
           ],
           "requests": {
             "left": 0,
@@ -2855,8 +3138,10 @@
               "inside": 0,
               "outside": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 3,
           "tag": "QUESTIONER",
           "slots": {
@@ -2878,8 +3163,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: books\nRIGHT: jacket\nTOP: suit\nBOTTOM: ruler\nCENTER: aluminium\nNORTHWEST: eraser\nNORTHEAST: hammer\nSOUTHWEST: wrench\nSOUTHEAST: bronzer\nHERE: crayons\nTHERE: nails\nNOWHERE: eye shadow\nEVERYWHERE: flip-flops\nINSIDE: whale\nOUTSIDE: lizard\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "inside", "bottom", "left", "right", "northeast", "northwest", "nowhere", "outside", "southwest", "here",
-            "there", "center", "southeast", "everywhere", "top"
+            "inside",
+            "bottom",
+            "left",
+            "right",
+            "northeast",
+            "northwest",
+            "nowhere",
+            "outside",
+            "southwest",
+            "here",
+            "there",
+            "center",
+            "southeast",
+            "everywhere",
+            "top"
           ],
           "requests": {
             "left": 0,
@@ -3171,8 +3469,10 @@
               "inside": 0,
               "outside": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 4,
           "tag": "QUESTIONER",
           "slots": {
@@ -3194,8 +3494,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: daisy\nRIGHT: rose\nTOP: banana\nBOTTOM: elephant\nCENTER: aluminium\nNORTHWEST: accordion\nNORTHEAST: horse\nSOUTHWEST: butterfly\nSOUTHEAST: mimosa\nHERE: saxophone\nTHERE: iron\nNOWHERE: ukulele\nEVERYWHERE: eagle\nINSIDE: pansy\nOUTSIDE: lizard\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "northwest", "nowhere", "here", "bottom", "everywhere", "outside", "southwest", "left", "right", "there",
-            "top", "inside", "northeast", "center", "southeast"
+            "northwest",
+            "nowhere",
+            "here",
+            "bottom",
+            "everywhere",
+            "outside",
+            "southwest",
+            "left",
+            "right",
+            "there",
+            "top",
+            "inside",
+            "northeast",
+            "center",
+            "southeast"
           ],
           "requests": {
             "left": 0,
@@ -3487,8 +3800,10 @@
               "inside": 0,
               "outside": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 5,
           "tag": "QUESTIONER",
           "slots": {
@@ -3510,8 +3825,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: dog\nRIGHT: jacket\nTOP: cat\nBOTTOM: skirts\nCENTER: plate\nNORTHWEST: melons\nNORTHEAST: helium\nSOUTHWEST: evening gown\nSOUTHEAST: bikini\nHERE: jeans skirt\nTHERE: camellia\nNOWHERE: clips\nEVERYWHERE: table mat\nINSIDE: tuba\nOUTSIDE: post-it notes\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "southeast", "northwest", "inside", "everywhere", "center", "here", "northeast", "outside", "southwest",
-            "left", "there", "nowhere", "right", "bottom", "top"
+            "southeast",
+            "northwest",
+            "inside",
+            "everywhere",
+            "center",
+            "here",
+            "northeast",
+            "outside",
+            "southwest",
+            "left",
+            "there",
+            "nowhere",
+            "right",
+            "bottom",
+            "top"
           ],
           "requests": {
             "left": 0,
@@ -3803,8 +4131,10 @@
               "inside": 0,
               "outside": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 6,
           "tag": "QUESTIONER",
           "slots": {
@@ -3826,8 +4156,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: nail polish\nRIGHT: neon\nTOP: pens\nBOTTOM: flute\nCENTER: orchid\nNORTHWEST: pig\nNORTHEAST: hammer\nSOUTHWEST: scissors\nSOUTHEAST: lyre\nHERE: napkin\nTHERE: tank top\nNOWHERE: papaya\nEVERYWHERE: table mat\nINSIDE: mango\nOUTSIDE: rhodium\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "inside", "northwest", "northeast", "center", "bottom", "here", "southwest", "southeast", "right",
-            "everywhere", "left", "nowhere", "outside", "top", "there"
+            "inside",
+            "northwest",
+            "northeast",
+            "center",
+            "bottom",
+            "here",
+            "southwest",
+            "southeast",
+            "right",
+            "everywhere",
+            "left",
+            "nowhere",
+            "outside",
+            "top",
+            "there"
           ],
           "requests": {
             "left": 0,
@@ -4119,8 +4462,10 @@
               "inside": 0,
               "outside": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 7,
           "tag": "QUESTIONER",
           "slots": {
@@ -4142,8 +4487,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: cherry\nRIGHT: jacket\nTOP: pens\nBOTTOM: ruler\nCENTER: toner\nNORTHWEST: eraser\nNORTHEAST: pants\nSOUTHWEST: violet\nSOUTHEAST: lyre\nHERE: rake\nTHERE: camellia\nNOWHERE: eye shadow\nEVERYWHERE: eagle\nINSIDE: whale\nOUTSIDE: toolbelt\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "everywhere", "outside", "top", "bottom", "left", "center", "northeast", "right", "southwest", "southeast",
-            "inside", "nowhere", "there", "northwest", "here"
+            "everywhere",
+            "outside",
+            "top",
+            "bottom",
+            "left",
+            "center",
+            "northeast",
+            "right",
+            "southwest",
+            "southeast",
+            "inside",
+            "nowhere",
+            "there",
+            "northwest",
+            "here"
           ],
           "requests": {
             "left": 0,
@@ -4435,8 +4793,10 @@
               "inside": 0,
               "outside": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 8,
           "tag": "QUESTIONER",
           "slots": {
@@ -4458,8 +4818,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: nail polish\nRIGHT: lip gloss\nTOP: screwdriver\nBOTTOM: spoons\nCENTER: harps\nNORTHWEST: saucepan\nNORTHEAST: highlighter\nSOUTHWEST: scissors\nSOUTHEAST: bikini\nHERE: watermelon\nTHERE: spider\nNOWHERE: buttercup\nEVERYWHERE: bluebell\nINSIDE: trivet\nOUTSIDE: lizard\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "there", "here", "northeast", "center", "nowhere", "everywhere", "outside", "southeast", "northwest",
-            "bottom", "left", "inside", "right", "southwest", "top"
+            "there",
+            "here",
+            "northeast",
+            "center",
+            "nowhere",
+            "everywhere",
+            "outside",
+            "southeast",
+            "northwest",
+            "bottom",
+            "left",
+            "inside",
+            "right",
+            "southwest",
+            "top"
           ],
           "requests": {
             "left": 0,
@@ -4751,8 +5124,10 @@
               "inside": 0,
               "outside": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 9,
           "tag": "QUESTIONER",
           "slots": {
@@ -4774,8 +5149,21 @@
           },
           "initial_prompt": "Things are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: piano\nRIGHT: pencils\nTOP: pens\nBOTTOM: skirts\nCENTER: bees\nNORTHWEST: eyeliner\nNORTHEAST: pants\nSOUTHWEST: apples\nSOUTHEAST: pineapple\nHERE: napkin\nTHERE: camellia\nNOWHERE: utility blade\nEVERYWHERE: mascara\nINSIDE: whale\nOUTSIDE: rhodium\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
           "request_order": [
-            "southwest", "northwest", "here", "outside", "left", "northeast", "there", "inside", "bottom", "right",
-            "top", "southeast", "nowhere", "everywhere", "center"
+            "southwest",
+            "northwest",
+            "here",
+            "outside",
+            "left",
+            "northeast",
+            "there",
+            "inside",
+            "bottom",
+            "right",
+            "top",
+            "southeast",
+            "nowhere",
+            "everywhere",
+            "center"
           ],
           "requests": {
             "left": 0,
@@ -5067,10 +5455,12 @@
               "inside": 0,
               "outside": 0
             }
-          }
+          },
+          "lang": "en"
         }
       ]
-    }, {
+    },
+    {
       "name": "letter-number",
       "game_instances": [
         {
@@ -5089,7 +5479,18 @@
             "j": "0110"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 4010\nB: 3456\nC: 9999\nD: 8777\nE: 8797\nF: 5404\nG: 2323\nH: 0000\nI: 4664\nJ: 0110\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["b", "i", "c", "e", "f", "a", "g", "d", "h", "j"],
+          "request_order": [
+            "b",
+            "i",
+            "c",
+            "e",
+            "f",
+            "a",
+            "g",
+            "d",
+            "h",
+            "j"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -5235,8 +5636,10 @@
               "i": 0,
               "j": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 1,
           "tag": "QUESTIONER",
           "slots": {
@@ -5252,7 +5655,18 @@
             "j": "5006"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 8010\nB: 7654\nC: 6666\nD: 7666\nE: 1919\nF: 2130\nG: 2323\nH: 4767\nI: 6446\nJ: 5006\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["f", "j", "b", "e", "d", "g", "h", "a", "c", "i"],
+          "request_order": [
+            "f",
+            "j",
+            "b",
+            "e",
+            "d",
+            "g",
+            "h",
+            "a",
+            "c",
+            "i"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -5398,8 +5812,10 @@
               "i": 0,
               "j": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 2,
           "tag": "QUESTIONER",
           "slots": {
@@ -5415,7 +5831,18 @@
             "j": "9002"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 4010\nB: 6789\nC: 7777\nD: 7666\nE: 7686\nF: 3202\nG: 2323\nH: 2989\nI: 7337\nJ: 9002\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["e", "j", "d", "g", "b", "c", "f", "a", "i", "h"],
+          "request_order": [
+            "e",
+            "j",
+            "d",
+            "g",
+            "b",
+            "c",
+            "f",
+            "a",
+            "i",
+            "h"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -5561,8 +5988,10 @@
               "i": 0,
               "j": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 3,
           "tag": "QUESTIONER",
           "slots": {
@@ -5578,7 +6007,18 @@
             "j": "2009"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 8010\nB: 8765\nC: 1111\nD: 1999\nE: 9808\nF: 3202\nG: 1000\nH: 7434\nI: 0901\nJ: 2009\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["h", "j", "c", "a", "g", "b", "d", "e", "i", "f"],
+          "request_order": [
+            "h",
+            "j",
+            "c",
+            "a",
+            "g",
+            "b",
+            "d",
+            "e",
+            "i",
+            "f"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -5724,8 +6164,10 @@
               "i": 0,
               "j": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 4,
           "tag": "QUESTIONER",
           "slots": {
@@ -5741,7 +6183,18 @@
             "j": "6005"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 9010\nB: 5678\nC: 4444\nD: 7666\nE: 7686\nF: 9818\nG: 4545\nH: 0000\nI: 4664\nJ: 6005\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["j", "c", "b", "f", "d", "i", "h", "g", "a", "e"],
+          "request_order": [
+            "j",
+            "c",
+            "b",
+            "f",
+            "d",
+            "i",
+            "h",
+            "g",
+            "a",
+            "e"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -5887,8 +6340,10 @@
               "i": 0,
               "j": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 5,
           "tag": "QUESTIONER",
           "slots": {
@@ -5904,7 +6359,18 @@
             "j": "6005"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 9010\nB: 5678\nC: 1111\nD: 8777\nE: 9808\nF: 5404\nG: 3434\nH: 8323\nI: 0901\nJ: 6005\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["a", "e", "c", "i", "f", "b", "d", "g", "h", "j"],
+          "request_order": [
+            "a",
+            "e",
+            "c",
+            "i",
+            "f",
+            "b",
+            "d",
+            "g",
+            "h",
+            "j"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -6050,8 +6516,10 @@
               "i": 0,
               "j": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 6,
           "tag": "QUESTIONER",
           "slots": {
@@ -6067,7 +6535,18 @@
             "j": "7004"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 3010\nB: 2345\nC: 6666\nD: 7666\nE: 4353\nF: 6570\nG: 5656\nH: 9212\nI: 2882\nJ: 7004\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["a", "e", "b", "j", "i", "h", "g", "c", "d", "f"],
+          "request_order": [
+            "a",
+            "e",
+            "b",
+            "j",
+            "i",
+            "h",
+            "g",
+            "c",
+            "d",
+            "f"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -6213,8 +6692,10 @@
               "i": 0,
               "j": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 7,
           "tag": "QUESTIONER",
           "slots": {
@@ -6230,7 +6711,18 @@
             "j": "6005"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 1010\nB: 3456\nC: 9999\nD: 4333\nE: 6575\nF: 3202\nG: 2323\nH: 7434\nI: 4664\nJ: 6005\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["d", "g", "i", "c", "h", "b", "f", "a", "e", "j"],
+          "request_order": [
+            "d",
+            "g",
+            "i",
+            "c",
+            "h",
+            "b",
+            "f",
+            "a",
+            "e",
+            "j"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -6376,8 +6868,10 @@
               "i": 0,
               "j": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 8,
           "tag": "QUESTIONER",
           "slots": {
@@ -6393,7 +6887,18 @@
             "j": "4007"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 2010\nB: 8765\nC: 7777\nD: 2111\nE: 3242\nF: 2130\nG: 1000\nH: 9212\nI: 8228\nJ: 4007\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["b", "f", "j", "c", "h", "i", "a", "d", "e", "g"],
+          "request_order": [
+            "b",
+            "f",
+            "j",
+            "c",
+            "h",
+            "i",
+            "a",
+            "d",
+            "e",
+            "g"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -6539,8 +7044,10 @@
               "i": 0,
               "j": 0
             }
-          }
-        }, {
+          },
+          "lang": "en"
+        },
+        {
           "game_id": 9,
           "tag": "QUESTIONER",
           "slots": {
@@ -6556,7 +7063,18 @@
             "j": "7004"
           },
           "initial_prompt": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 2010\nB: 7654\nC: 7777\nD: 4333\nE: 1919\nF: 5404\nG: 4545\nH: 5654\nI: 1555\nJ: 7004\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <some text>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <some text>\n\nImportant: Give short, direct answers!\n\nLet us start.",
-          "request_order": ["f", "j", "i", "b", "d", "e", "c", "a", "h", "g"],
+          "request_order": [
+            "f",
+            "j",
+            "i",
+            "b",
+            "d",
+            "e",
+            "c",
+            "a",
+            "h",
+            "g"
+          ],
           "requests": {
             "a": 0,
             "b": 0,
@@ -6702,7 +7220,8 @@
               "i": 0,
               "j": 0
             }
-          }
+          },
+          "lang": "en"
         }
       ]
     }
